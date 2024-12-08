@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Hello, We are:</h1>
-        <p>Prasanna P Kothari</p>
-        <p>Praful S Kanaka</p>
-        <p>Prateek Ariga</p>
-        <p>Shreyas Mahajan 👋</p>
-        <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+        <div class="header-container">
+            <h1>Hello, We are:</h1>
+            <div class="team">
+                <p>Prasanna P Kothari</p>
+                <p>Praful S Kanaka</p>
+                <p>Prateek Ariga</p>
+                <p>Shreyas Mahajan 👋</p>
+            </div>
+            <p>I am passionate about technology and problem-solving. Here's a glimpse of my work:</p>
+        </div>
     </header>
 
-    <section>
+    <section class="content">
         <h2>🛠️ Projects</h2>
         <ul>
             <li><strong>Project 1</strong>: A short description of your project1.</li>
@@ -38,7 +42,9 @@
         </ul>
 
         <h2>Smart City Design - Amaravati</h2>
-        <div>
+
+        <!-- Individual Info -->
+        <section class="profile">
             <h3>Prasanna P Kothari</h3>
             <dl>
                 <dt>Course Name</dt>
@@ -58,11 +64,10 @@
 
                 <dt>Sector</dt>
                 <dd>Agricultural and IT</dd>
-                <dd>Google</dd>
             </dl>
-        </div>
+        </section>
 
-        <div>
+        <section class="profile">
             <h3>Praful S Kanaka</h3>
             <dl>
                 <dt>Course Name</dt>
@@ -82,11 +87,10 @@
 
                 <dt>Sector</dt>
                 <dd>Education and Energy</dd>
-                <dd>Google</dd>
             </dl>
-        </div>
+        </section>
 
-        <div>
+        <section class="profile">
             <h3>Prateek Ariga</h3>
             <dl>
                 <dt>Course Name</dt>
@@ -106,11 +110,10 @@
 
                 <dt>Sector</dt>
                 <dd>Industry and Transportation</dd>
-                <dd>Google</dd>
             </dl>
-        </div>
+        </section>
 
-        <div>
+        <section class="profile">
             <h3>Shreyas Mahajan</h3>
             <dl>
                 <dt>Course Name</dt>
@@ -130,11 +133,11 @@
 
                 <dt>Sector</dt>
                 <dd>Commercial Sector</dd>
-                <dd>Google</dd>
             </dl>
-        </div>
+        </section>
 
         <blockquote>“The only way to do great work is to love what you do.” – Steve Jobs</blockquote>
     </section>
-</body> 
+</body>
 </html>
+
